@@ -1,0 +1,109 @@
+{
+  "hubId": "LH002",
+  "location": {
+    "country": "Scotland",
+    "city": "Edinburgh",
+    "address": {
+      "street": "123 Cargo Street",
+      "zipCode": "EH1 1AA",
+      "coordinates": {
+        "latitude": 55.9533,
+        "longitude": -3.1883
+      }
+    }
+  },
+  "inventory": [
+    {
+      "productId": "P1001",
+      "name": "Laptop",
+      "category": "Electronics",
+      "quantity": 120,
+      "lastRestock": "2023-10-01T10:00:00Z",
+      "price": {
+        "amount": 1200.99,
+        "currency": "GBP"
+      },
+      "suppliers": [
+        {
+          "supplierId": "S2001",
+          "name": "TechSource",
+          "contact": {
+            "email": "support@techsource.co.uk",
+            "phone": "+44-131-555-0101"
+          }
+        }
+      ]
+    },
+    {
+      "productId": "P1002",
+      "name": "Desk Chair",
+      "category": "Furniture",
+      "quantity": 200,
+      "lastRestock": "2023-10-15T12:30:00Z",
+      "price": {
+        "amount": 179.99,
+        "currency": "GBP"
+      },
+      "suppliers": [
+        {
+          "supplierId": "S2002",
+          "name": "Office Essentials UK",
+          "contact": {
+            "email": "contact@officeessentials.co.uk",
+            "phone": "+44-131-555-0202"
+          }
+        }
+      ]
+    }
+  ],
+  "fleet": [
+    {
+      "truckId": "T3001",
+      "model": "Mercedes-Benz Actros",
+      "licensePlate": "SC-XY123",
+      "capacityKg": 18000,
+      "status": "Ready and Waiting",
+      "currentLocation": {
+        "latitude": 55.9508,
+        "longitude": -3.2004
+      },
+      "driver": {
+        "driverId": "D4001",
+        "name": "James McGregor",
+        "licenseNumber": "SCD123456789",
+        "phone": "+44-131-555-0303",
+        "email": "james.mcgregor@logistics.co.uk",
+        "experienceYears": 8
+      },
+      "lastServiceDate": "2024-09-15",
+      "scheduledDeliveries": [
+        {
+          "deliveryId": "DEL5001",
+          "destination": {
+            "street": "78 Princes Street",
+            "city": "Glasgow",
+            "zipCode": "G1 2FF"
+          },
+          "estimatedArrival": "2024-11-02T16:00:00Z",
+          "items": [
+            {
+              "productId": "P1001",
+              "quantity": 30
+            },
+            {
+              "productId": "P1002",
+              "quantity": 15
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2024-10-01T15:45:00Z",
+  "operationalStatus": "Active",
+  "metrics": {
+    "dailyShipments": 450,
+    "averageProcessingTimeMinutes": 28.5,
+    "totalEmployees": 120
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "DebitCard",
+  "amount": 58.90,
+  "date": "2024-10-23",
+  "account_number": "****9012",
+  "card_type": "Visa",
+  "card_holder": "John Doe",
+  "merchant_name": "Supermarket",
+  "currency": "USD",
+  "transaction_id": "DCARD-11223344556",
+  "card_issuer": "Bank of America",
+  "chip_used": true,
+  "atm_withdrawal": false
+}

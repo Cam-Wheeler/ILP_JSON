@@ -1,0 +1,13 @@
+{
+  "type": "GooglePay",
+  "amount": 15.75,
+  "date": "2024-10-22",
+  "account_number": "****5678",
+  "phone_number": "+1-555-555-0199",
+  "merchant_name": "Coffee House",
+  "currency": "AUD",
+  "transaction_id": "GPAY-98765432109",
+  "google_account": "user123@gmail.com",
+  "reward_points_used": 50,
+  "device_model": "Pixel 6"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "PayPal",
+  "amount": 42.50,
+  "date": "2024-10-25",
+  "account_number": "****3456",
+  "payer_email": "johndoe@example.com",
+  "payee_email": "shop@example.com",
+  "currency": "GBP",
+  "transaction_id": "PPAY-77889900123",
+  "category": "Electronics",
+  "shipping_address": "123 Main St, Anytown, Edinburgh",
+  "buyer_protection": true
+}
