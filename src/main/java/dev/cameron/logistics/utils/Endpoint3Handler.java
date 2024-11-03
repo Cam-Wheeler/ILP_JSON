@@ -14,8 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Handler for the JSONL (Json line) data mocking an OpenAI Batch API in our case.
-// The idea here is that we use a buffer to read in several lines at a time (reducing the reads), then we can
-// crack on with processing the JSON.
+// The idea here is that we use a buffer to read in lines then crack on with processing the JSON.
 public class Endpoint3Handler {
 
     public static ObjectMapper createMapper() {
@@ -37,6 +36,7 @@ public class Endpoint3Handler {
         }
         return feedBackList;
     }
+
     public static CustomerFeedBackDTO processLine(String jsonl, ObjectMapper mapper) throws IOException {
         // Treat the line as a tree node we can then parse.
         JsonNode lineNode = mapper.readTree(jsonl);
@@ -49,7 +49,6 @@ public class Endpoint3Handler {
         }
         return feedback;
     }
-
 
     public static String serialize(List<CustomerFeedBackDTO> feedback) throws JsonProcessingException {
         ObjectMapper mapper = createMapper();
